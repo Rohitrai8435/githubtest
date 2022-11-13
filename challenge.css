@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{display: flex;
+    height: 100%;
+    width:100%;
+    background-color: azure;
+    justify-content: center;
+}
+#content{
+    height: 100%;
+    width: 85%;
+    background-color: aqua;
+}
+#nav{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    align-items: center;
+}
+#nav #lnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+#nav #c{
+    height: 20px;
+    width: 20px;
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c h2{
+   
+    color: white;
+}
+
+   
+    
+#lnav h3{ font-family: "gilroy"; 
+    font-size: 20px; 
+    font-weight: 500;
+    
+
+}
+#nav #home{
+    font-weight: 600;
+    opacity: 1;
+
+}
+#cnav a{font-family: "gilroy";
+    font-weight: 500;
+   color: #000;
+ opacity: 0.5;
+    text-decoration: none;
+}
+#cnav {  
+    display: flex;
+    gap: 50px;
+}
+#nav #icon{
+    height: 30px;
+    width: 30px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% ;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    opacity: 0.5;    
+    
+}
+#content #left{
+    font-family: "gilroy";
+    margin-top: 60px;
+    
+    width: 55%;
+   white-space: norap;
+   line-height: 1;
+    background-color:rgb(119, 119, 194);
+  
+}
+#left h1{
+    padding-bottom: 20px;
+    font-size: 100px;
+}
+#left p{
+    padding-bottom: 20px;
+}
+#left input{
+    padding: 10px;
+    border-radius: 20px;
+    
+    position: relative;
+}
+#bottum{
+    display: flex;
+   /* float:left; */
+    
+    
+}
+#bottum #mail{
+    width: 100%;
+    height: 100%;
+}
+#bottum h6{
+    background-color: #F3F3F3;
+    display: flex;
+    /* float: left; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-right: 100px;
+    padding: 20px;
+    opacity: 0.5;
+   
+}
+#left{
+    float: left;
+}
+#left button{
+    margin: 0px;
+    
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color:black;
+    color: white; 
+
+}
+#btn{
+    padding-right: 40px;
+}
